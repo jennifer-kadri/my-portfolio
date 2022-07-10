@@ -5,6 +5,11 @@ export const Hero = styled.header`
    height: 100vh;
    padding-top: 6rem;
    overflow: hidden;
+
+   /* ========== MEDIA QUERIES (Small) ========== */
+   @media screen and (max-width: 600px) {
+      padding-top: 2rem;
+   }
 `
 
 export const HeroContainer = styled.div`

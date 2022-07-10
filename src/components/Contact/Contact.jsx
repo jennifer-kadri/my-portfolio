@@ -45,21 +45,21 @@ const Contact = () => {
             <CardIcon><HiOutlineMail /></CardIcon>
             <CardTitle>Email</CardTitle>
             <CardInfo className="mail-addie" >jennifer.kdri@gmail.com</CardInfo>
-            <CardLink href="mailto:jennifer.kdri@gmail.com" target="_blank" rel="noreferrer">Click me</CardLink> 
+            <CardLink href="mailto:jennifer.kdri@gmail.com" target="_blank" rel="noreferrer" className="mailto-link">Click me</CardLink> 
           </ContactCard>
 
-          <ContactCard>
+          <ContactCard className="linkedin">
             <CardIcon><TbBrandMessenger /></CardIcon>
             <CardTitle>Linkedin</CardTitle>
             <CardInfo>Jennifer Kadri</CardInfo>
             <CardLink href="https://www.linkedin.com/in/jennifer-kadri" target="_blank" rel="noreferrer">Click me</CardLink> 
           </ContactCard>
 
-          <ContactCard>
+          <ContactCard className="whatsapp">
             <CardIcon><TbBrandWhatsapp /></CardIcon>
             <CardTitle>WhatsApp</CardTitle>
             <CardInfo>+33 7 61 05 80 86</CardInfo>
-            <CardLink href="https://api.whatsapp.com/send?phone=+33761058086" target="_blank" rel="noreferrer">Click me</CardLink> 
+            <CardLink href="https://api.whatsapp.com/send?phone=+33761058086" target="_blank" rel="noreferrer" >Click me</CardLink> 
           </ContactCard>
         </ContactOptions>
 

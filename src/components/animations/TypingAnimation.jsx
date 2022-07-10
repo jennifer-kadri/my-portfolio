@@ -61,6 +61,21 @@ export function AboutTitleAnimation() {
    )
 }
 
+export function AboutHelloAnimation() {
+   return (
+      <Wrapper className="description hello">
+         <Typical
+            wrapper="span"
+            steps={[
+               ' ',
+               1000,
+               ' Hello there ~'
+            ]}
+          />
+      </Wrapper>
+   )
+}
+
 export function AboutDescriptionAnimation() {
    return (
       <Wrapper className="description">
@@ -68,8 +83,8 @@ export function AboutDescriptionAnimation() {
             wrapper="span"
             steps={[
                ' ',
-               1000,
-               ' Hello ! My name is Jennifer, I am 24 years old and love creating things. I am very passionate about web development, designing and programming. I am currently studying at Web@cadémie by Epitech in the south of France where I live.',
+               2000,
+               ' My name is Jennifer, I am 24 years old and love creating things. \n\n I am very passionate about web development, designing and programming. I am currently studying at Web@cadémie by Epitech in the south of France where I live.',
                500
             ]}
          />
@@ -186,8 +201,16 @@ const Wrapper = styled.span`
       }
    }
    &.description {
+      text-align: center;
       & ::after {
          color: var(--clr-dark);
+      }
+
+      &.hello {
+         padding-bottom: 1rem;
+         & ::after {
+            display: none;
+         }
       }
    }
    & ::after {

@@ -16,7 +16,7 @@ import {
   AboutText, 
   AboutButton
 } from './AboutElements'
-import { AboutDescriptionAnimation, AboutTitleAnimation } from '../animations/TypingAnimation'
+import { AboutTitleAnimation, AboutDescriptionAnimation, AboutHelloAnimation } from '../animations/TypingAnimation'
 import MyAvatar from '../../assets/img/sakura-about.png'
 import { RiMedal2Fill } from 'react-icons/ri'
 import { TbUsers } from 'react-icons/tb'
@@ -44,11 +44,11 @@ const About = () => {
               <AboutSmall>1 Year of Work</AboutSmall>
             </AboutCard>
             
-            <AboutCard>
+            {/* <AboutCard>
             <AboutIcon><TbUsers /></AboutIcon>
               <AboutCardTitle>Clients</AboutCardTitle>
               <AboutSmall>20+</AboutSmall>
-            </AboutCard>
+            </AboutCard> */}
             
             <AboutCard>
               <AboutIcon><VscFolderLibrary /></AboutIcon>
@@ -58,7 +58,10 @@ const About = () => {
 
           </AboutCards>
 
-          <AboutText><AboutDescriptionAnimation /></AboutText>
+          <AboutText>
+            <AboutHelloAnimation className="bio-hello" /> <br></br>
+            <AboutDescriptionAnimation className="bio" />
+          </AboutText>
 
           <AboutButton href="#contact" className="contact-btn btn btn-primary">Let's Talk</AboutButton>
 

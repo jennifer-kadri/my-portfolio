@@ -6,6 +6,11 @@ export const AboutSection = styled.section`
 export const  AboutSubtitle = styled.h5``
 export const  AboutTitle = styled.h2`
    margin-bottom: 4rem;
+   
+   /* ========== MEDIA QUERIES (Small) ========== */
+   @media screen and (max-width: 600px) {
+      margin-bottom: 2rem;
+   }
 `
 
 export const AboutContainer = styled.div`
@@ -64,6 +69,8 @@ export const AboutMeImg = styled.img``
 
 export const AboutContent = styled.div`
    & p {
+      text-align: center;
+      overflow-wrap: break-word;
       margin: 2rem 0 2rem;
       color: var(--clr-dark);
    }
@@ -80,6 +87,7 @@ export const AboutContent = styled.div`
    @media screen and (max-width: 600px) {
          text-align: center;
       & p {
+         font-size: 0.95rem;
          margin: 1.5rem 0;
       }
    }
@@ -87,7 +95,7 @@ export const AboutContent = styled.div`
 
 export const AboutCards = styled.div`
    display: grid;
-   grid-template-columns: repeat(3, 1fr);
+   grid-template-columns: repeat(2, 1fr);
    gap: 1.5rem;
 
    /* ========== MEDIA QUERIES (Small) ========== */
@@ -117,7 +125,8 @@ export const AboutCard = styled.div`
 
    /* ========== MEDIA QUERIES (Small) ========== */
    @media screen and (max-width: 600px) {
-      padding: 1.5rem;
+      overflow-wrap: break-word;
+      padding: 1rem;
    }
 `
 

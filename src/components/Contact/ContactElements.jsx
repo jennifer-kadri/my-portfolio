@@ -2,11 +2,8 @@ import styled from 'styled-components'
 
 export const ContactSection = styled.section`
    margin-top: 5rem;
-   height: 88vh;
-   // height: 80vh;
    background: #ffffff;
-   @media screen and (max-width: 600px) {
-   }
+   padding-bottom: 3rem;
 `
 export const ContactSubtitle = styled.h5`
    visibility: hidden;
@@ -47,6 +44,7 @@ export const ContactOptions = styled.div`
    /* ========== MEDIA QUERIES (Small) ========== */
    @media screen and (max-width: 600px) {
       gap: 1rem;
+      grid-template-columns: 1fr;
    }
 `
 
@@ -72,21 +70,34 @@ export const ContactCard = styled.article`
    @media screen and (max-width: 1024px) {
       overflow-wrap: break-word;
    }
+
+   /* ========== MEDIA QUERIES (Small) ========== */
+   @media screen and (max-width: 600px) {
+      display: flex;
+      margin: 0 auto;
+      text-align: center;
+      align-items: center;
+      place-content: center;
+      place-items: center;
+      
+      &.linkedin {
+         display: none;
+      }
+      &.whatsapp {
+         display: none;
+      }
+   }
 `
 
 export const CardIcon = styled.span`
    font-size: 1.5rem;
    margin-bottom: 0;
-   /* ========== MEDIA QUERIES (Medium) ========== */
-   @media screen and (max-width: 600px) {
-      margin-top: 2rem;
-   }
 `
 
 export const CardTitle = styled.h4`
    /* ========== MEDIA QUERIES (Medium) ========== */
-   @media screen and (max-width: 600px) {
-      font-size: 0.8rem;
+   @media screen and (max-width: 440px) {
+      display: none;
    }
    
    `
@@ -105,6 +116,16 @@ export const CardLink = styled.a`
 
    /* ========== MEDIA QUERIES (Medium) ========== */
    @media screen and (max-width: 600px) {
+      &.mailto-link {
+         text-indent: -9999px;
+         line-height: 0; /* Collapse the original line */
+      }
+      &.mailto-link:after {
+         content: "Mail me";
+         text-indent: 0;
+         display: block;
+         line-height: initial; /* New content takes up original line height */
+      }
    }
 `
 
@@ -151,5 +172,12 @@ export const FormTextMail = styled.div`
    display: grid;
    grid-template-columns: 1fr 1.2fr;
    column-gap: 1.2rem;
+
+   /* ========== MEDIA QUERIES (Small) ========== */
+   @media screen and (max-width: 600px) {
+      grid-template-columns: 1fr;
+      gap: 1.2rem;
+   }
+
 `
 export const FormButton = styled.button`margin: 0 auto;`
