@@ -74,11 +74,9 @@ export const ContactCard = styled.article`
    /* ========== MEDIA QUERIES (Small) ========== */
    @media screen and (max-width: 600px) {
       display: flex;
+      flex-direction: column;
+      width: 30%;
       margin: 0 auto;
-      text-align: center;
-      align-items: center;
-      place-content: center;
-      place-items: center;
       
       &.linkedin {
          display: none;
@@ -96,7 +94,7 @@ export const CardIcon = styled.span`
 
 export const CardTitle = styled.h4`
    /* ========== MEDIA QUERIES (Medium) ========== */
-   @media screen and (max-width: 440px) {
+   @media screen and (max-width: 600px) {
       display: none;
    }
    
