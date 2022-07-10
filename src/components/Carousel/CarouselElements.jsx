@@ -5,7 +5,7 @@ export const CarouselSubtitle = styled.h5``
 export const CarouselTitle = styled.h2``
 
 export const CarouselContainer = styled.div`
-   max-width: 620px;
+   max-width: 600px;
    max-height: 400px;
    width: 40%;
    padding-bottom: 4rem;
@@ -29,7 +29,10 @@ export const CarouselContainer = styled.div`
    }
 `
 
-export const CarouselBox = styled.div``
+export const CarouselBox = styled.div`
+   text-align: center;
+   align-items: center;
+`
 export const CardLeft = styled.div``
 export const CardRight = styled.div``
 
