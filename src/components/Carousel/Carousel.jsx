@@ -36,7 +36,7 @@ const data = [
     image: IMG1,
     title: 'Connect 4',
     review: '« I really liked this JS project. This is a very fun and cute game and relatively simple to understand ! »',
-    github: 'https://github.com/',
+    github: 'https://github.com/miyuna-projects/connect-4',
   },
   {
     id: 2,

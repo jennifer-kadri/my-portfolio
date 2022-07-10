@@ -23,16 +23,16 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'My first project',
-    github: 'https://github.com/',
-    demo: 'https:dribble.com'
+    title: 'Connect 4',
+    github: 'https://github.com/miyuna-projects/connect-4',
+    demo: 'https://miyuna-projects.github.io/connect-4/'
   },
   {
     id: 2,
     image: IMG2,
     title: 'My first project',
-    github: 'https://github.com/',
-    demo: 'https:dribble.com'
+    github: 'https://github.com/miyuna-projects/miyuchat-irc',
+    demo: 'https://miyuna-projects.github.io/miyuchat-irc'
   },
   {
     id: 3,
@@ -80,7 +80,9 @@ const Portfolio = () => {
                   <PortfolioCardImg src={image} alt={title} />
                   <PortfolioCardTitle>{title}</PortfolioCardTitle>
                   <PortfolioCardButton>
-                    <PortfolioLink href={github} className="btn" target="_blank" rel="noreferrer">Project
+                    <PortfolioLink href={github} id="github" className="btn" target="_blank" rel="noreferrer">Project
+                    </PortfolioLink>
+                    <PortfolioLink href={demo} id="demo" className="btn btn-primary" target="_blank" rel="noreferrer">Demo
                     </PortfolioLink>
                   </PortfolioCardButton>
                 </PortfolioCardImage>

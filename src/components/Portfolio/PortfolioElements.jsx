@@ -30,20 +30,16 @@ export const PortfolioContainer = styled.div`
 `
 
 export const PortfolioCard = styled.article`
-   background-color: #ecfae1;
+   background-color: #edf5e6;
    // background-color: var(--clr-bg-variant);
    padding: 0.8rem;
    border-radius: 1rem;
-   border: 2px solid var(--clr-white);
+   border: 2px solid var(--clr-pastel-purple);
    transition: var(--transition);
 
    &:hover { 
       border-color: var(--clr-light-pink);
       background: var(--clr-bg-variant);
-      & .btn {
-         color: var(--clr-white);
-         background-color: var(--clr-primary);
-      }
    }
 
    & h3 {
@@ -68,12 +64,21 @@ export const PortfolioCardTitle = styled.h3``
 
 export const PortfolioCardButton = styled.div`
    display: flex;
+   gap: 1rem;
    margin-bottom: 0.2rem;
    place-content: center;
+   & #github {
+      color: var(--clr-primary);
+      background: var(--clr-white);
+   }
+   & #demo {
+      background: var(--clr-pastel-purple);
+   }
 `
 
 export const PortfolioLink = styled.a`
-   background: var(--clr-light-pink);
-   border: 2px solid var(--clr-pastel-purple);
-   color: var(--clr-white);
+   
+// background: var(--clr-light-pink);
+//    border: 2px solid var(--clr-pastel-purple);
+//    color: var(--clr-white);
 `
