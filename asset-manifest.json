@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/miyuna-portfolio/static/css/main.d1013e69.css",
-    "main.js": "/miyuna-portfolio/static/js/main.c0c97f5f.js",
-    "static/media/sakura-about.png": "/miyuna-portfolio/static/media/sakura-about.c8a5637725c2af9a506e.png",
-    "static/media/me.png": "/miyuna-portfolio/static/media/me.fd8b7dc12b0ccad9879c.png",
-    "static/media/CV_Jennifer_KADRI.pdf": "/miyuna-portfolio/static/media/CV_Jennifer_KADRI.21b8557db23d4c307a47.pdf",
-    "static/media/portfolio-1.png": "/miyuna-portfolio/static/media/portfolio-1.14b017e5cd5ab2b4a290.png",
-    "static/media/portfolio-2.png": "/miyuna-portfolio/static/media/portfolio-2.14b017e5cd5ab2b4a290.png",
-    "static/media/portfolio-3.png": "/miyuna-portfolio/static/media/portfolio-3.14b017e5cd5ab2b4a290.png",
-    "static/media/portfolio-4.png": "/miyuna-portfolio/static/media/portfolio-4.14b017e5cd5ab2b4a290.png",
-    "static/media/portfolio-5.png": "/miyuna-portfolio/static/media/portfolio-5.14b017e5cd5ab2b4a290.png",
-    "static/media/portfolio-6.png": "/miyuna-portfolio/static/media/portfolio-6.14b017e5cd5ab2b4a290.png",
-    "index.html": "/miyuna-portfolio/index.html",
-    "main.d1013e69.css.map": "/miyuna-portfolio/static/css/main.d1013e69.css.map",
-    "main.c0c97f5f.js.map": "/miyuna-portfolio/static/js/main.c0c97f5f.js.map"
+    "main.css": "/my-portfolio/static/css/main.d1013e69.css",
+    "main.js": "/my-portfolio/static/js/main.9ad5f5bf.js",
+    "static/media/sakura-about.png": "/my-portfolio/static/media/sakura-about.c8a5637725c2af9a506e.png",
+    "static/media/me.png": "/my-portfolio/static/media/me.fd8b7dc12b0ccad9879c.png",
+    "static/media/CV_Jennifer_KADRI.pdf": "/my-portfolio/static/media/CV_Jennifer_KADRI.21b8557db23d4c307a47.pdf",
+    "static/media/portfolio-1.png": "/my-portfolio/static/media/portfolio-1.14b017e5cd5ab2b4a290.png",
+    "static/media/portfolio-2.png": "/my-portfolio/static/media/portfolio-2.14b017e5cd5ab2b4a290.png",
+    "static/media/portfolio-3.png": "/my-portfolio/static/media/portfolio-3.14b017e5cd5ab2b4a290.png",
+    "static/media/portfolio-4.png": "/my-portfolio/static/media/portfolio-4.14b017e5cd5ab2b4a290.png",
+    "static/media/portfolio-5.png": "/my-portfolio/static/media/portfolio-5.14b017e5cd5ab2b4a290.png",
+    "static/media/portfolio-6.png": "/my-portfolio/static/media/portfolio-6.14b017e5cd5ab2b4a290.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.d1013e69.css.map": "/my-portfolio/static/css/main.d1013e69.css.map",
+    "main.9ad5f5bf.js.map": "/my-portfolio/static/js/main.9ad5f5bf.js.map"
   },
   "entrypoints": [
     "static/css/main.d1013e69.css",
-    "static/js/main.c0c97f5f.js"
+    "static/js/main.9ad5f5bf.js"
   ]
 }
