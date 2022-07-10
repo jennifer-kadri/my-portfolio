@@ -35,7 +35,7 @@ export const HeroProfession = styled.h5`
 
 export const Avatar = styled.div`
    background: linear-gradient(#edc7f0, #c7e5f0, var(--clr-light-green), #f0efc7, var(--clr-faded-pink), transparent);
-   width: 22rem;
+   width: 18rem;
    height: 30rem;
    position: absolute;
    /* left: calc(50% - 11rem); */
@@ -44,7 +44,9 @@ export const Avatar = styled.div`
    margin-top: 4rem;
    border-radius: 12rem 12rem 0 0;
    overflow: hidden;
-   padding: 5rem 1.5rem 1.5rem 1.5rem;
+   padding: 2rem 0rem 1.5rem 0rem;
+   // padding: 5rem 1.5rem 1.5rem 1.5rem;
+   
    /* ========== MEDIA QUERIES (Small) ========== */
    @media screen and (max-width: 600px) {
       width: 75%;

@@ -74,11 +74,21 @@ export const PortfolioCardButton = styled.div`
    & #demo {
       background: var(--clr-pastel-purple);
    }
+   /* ========== MEDIA QUERIES (Small) ========== */
+   @media screen and (max-width: 600px) {
+      gap: 0.5rem;
+   }
+
 `
 
 export const PortfolioLink = styled.a`
-   
-// background: var(--clr-light-pink);
-//    border: 2px solid var(--clr-pastel-purple);
-//    color: var(--clr-white);
+   &:hover {
+      border-color: var(--clr-light-pink);
+      color: var(--clr-dark);
+   }
+
+   /* ========== MEDIA QUERIES (Small) ========== */
+   @media screen and (max-width: 600px) {
+      padding: 0.3rem 0.5rem;
+   }
 `

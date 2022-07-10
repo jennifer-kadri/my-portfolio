@@ -44,12 +44,6 @@ const About = () => {
               <AboutSmall>1 Year of Work</AboutSmall>
             </AboutCard>
             
-            {/* <AboutCard>
-            <AboutIcon><TbUsers /></AboutIcon>
-              <AboutCardTitle>Clients</AboutCardTitle>
-              <AboutSmall>20+</AboutSmall>
-            </AboutCard> */}
-            
             <AboutCard>
               <AboutIcon><VscFolderLibrary /></AboutIcon>
               <AboutCardTitle>Projects</AboutCardTitle>

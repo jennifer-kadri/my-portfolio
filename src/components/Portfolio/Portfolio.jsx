@@ -30,37 +30,37 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'My first project',
+    title: 'MiyuChat IRC',
     github: 'https://github.com/miyuna-projects/miyuchat-irc',
     demo: 'https://miyuna-projects.github.io/miyuchat-irc'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'My first project',
-    github: 'https://github.com/',
-    demo: 'https:dribble.com'
+    title: 'Spotify',
+    github: 'https://github.com/miyuna-projects/spotify/',
+    demo: 'https://miyuna-projects.github.io/spotify'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'My first project',
-    github: 'https://github.com/',
-    demo: 'https:dribble.com'
+    title: 'Snapchat',
+    github: 'https://github.com/miyuna-projects/snapchat/',
+    demo: 'https://miyuna-projects.github.io/'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'My first project',
-    github: 'https://github.com/',
-    demo: 'https:dribble.com'
+    title: 'Tweet Academia',
+    github: 'https://github.com/miyuna-projects/tweet-academia/',
+    demo: 'https://miyuna-projects.github.io/'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'My first project',
-    github: 'https://github.com/',
-    demo: 'https:dribble.com'
+    title: 'Free Ads',
+    github: 'https://github.com/miyuna-projects/free-ads/',
+    demo: 'https://miyuna-projects.github.io/'
   }
 ]
 

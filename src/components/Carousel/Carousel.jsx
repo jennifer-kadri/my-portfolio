@@ -37,27 +37,31 @@ const data = [
     title: 'Connect 4',
     review: '« I really liked this JS project. This is a very fun and cute game and relatively simple to understand ! »',
     github: 'https://github.com/miyuna-projects/connect-4',
+    demo: 'https://miyuna-projects.github.io/connect-4',
   },
   {
     id: 2,
     image: IMG2,
     title: 'Internet Relay Chat',
     review: '« Made with socket.io. I absolutely loved this project and will continue to work on it. »',
-    github: 'https://github.com/',
+    github: 'https://github.com/miyuna-projects/miyuchat-irc',
+    demo: 'https://miyuna-projects.github.io/miyuchat-irc',
   },
   {
     id: 3,
     image: IMG3,
-    title: 'PiePHP',
+    title: 'WYSIWYG',
     review: '« It really made me understand how frameworks in PHP are working and how to use them. »',
-    github: 'https://github.com/',
+    github: 'https://github.com/miyuna-projects/wysiwyg',
+    demo: 'https://miyuna-projects.github.io/wysiwyg',
   },
   {
     id: 4,
     image: IMG4,
     title: 'CSS Generator',
     review: '« Entertaining project, I actually enjoyed coding in PHP while I was working on this. »',
-    github: 'https://github.com/',
+    github: 'https://github.com/miyuna-projects/',
+    demo: 'https://miyuna-projects.github.io/',
   },
 ]
 
@@ -97,7 +101,7 @@ const Carousel = () => {
             }}
           >
           {
-            data.map(({id, image, title, review, github}) => {
+            data.map(({id, image, title, review, github, demo}) => {
               return (
                 <CarouselBox id="carousel-box">
                   <SwiperSlide key={id}  id="carousel-box" className="carousel">
@@ -108,6 +112,7 @@ const Carousel = () => {
                       <ProjectTitle className="project__title">{title}</ProjectTitle>
                         <ProjectCTA>
                           <ProjectBtn href={github} className=" btn" target="_blank" rel="noreferrer">Project</ProjectBtn>
+                          <ProjectBtn href={demo} className=" btn" target="_blank" rel="noreferrer">Demo</ProjectBtn>
                         </ProjectCTA> 
                     </CardLeft>
                     <CardRight>

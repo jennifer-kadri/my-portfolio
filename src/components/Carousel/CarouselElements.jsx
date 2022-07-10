@@ -56,6 +56,7 @@ export const ProjectTitle = styled.h5``
 
 export const ProjectCTA = styled.div`
    display: flex;
+   gap: 0.4rem;
    margin-bottom: 0;
    place-content: center;
 `
