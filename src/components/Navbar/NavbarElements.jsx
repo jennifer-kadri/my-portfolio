@@ -17,6 +17,12 @@ export const Nav = styled.nav`
    border: 1px solid rgba(337, 80, 145, 0.1);
    border-radius: 3rem;
    backdrop-filter: blur(12px);
+   
+   /* ========== MEDIA QUERIES (Small) ========== */
+   @media screen and (max-width: 600px) {
+      padding: 0.4rem 1rem;
+      bottom: 0.6rem;
+   }
 `
 
 export const NavLink = styled.a`
@@ -36,5 +42,9 @@ export const NavLink = styled.a`
       color: var(--clr-white);
       stroke: var(--clr-white);
       background: rgba(337, 80, 145, 0.3);
+   }
+   /* ========== MEDIA QUERIES (Small) ========== */
+   @media screen and (max-width: 600px) {
+      padding: 0.9rem;
    }
 `

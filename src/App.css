@@ -126,19 +126,18 @@ a:hover {
    padding: 0.75rem 1.2rem;
    border-radius: 0.4rem;
    cursor: pointer;
-   border: 1px solid;
-   border: 2px solid var(--clr-pastel-green);
+   border: 2px solid var(--clr-pastel-purple);
    transition: var(--transition);
 }
 
 .btn:hover {
-   border: 2px solid var(--clr-pastel-purple);
+   border-color: solid var(--clr-pastel-green);
    background: var(--clr-white);
    color: var(--clr-primary);
 }
 
 .btn-primary {
-   background: var(--clr-primary);
+   background: var(--clr-light-pink);
    color: var(--clr-white);
 }
 

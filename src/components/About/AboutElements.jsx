@@ -106,13 +106,13 @@ export const AboutCards = styled.div`
 
 export const AboutCard = styled.div`
    background: var(--clr-bg-variant);
-   border: 3px solid var(--clr-pastel-green);
+   border: 3px solid  var(--clr-pastel-purple);
    border-radius: 1rem;
    padding: 1.4rem;
    text-align: center;
-
+   
    &:hover {
-      border-color: var(--clr-pastel-purple);
+      border-color: var(--clr-pastel-green);
       cursor: default;
    }
    & h5 {

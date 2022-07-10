@@ -80,7 +80,7 @@ const Portfolio = () => {
                   <PortfolioCardImg src={image} alt={title} />
                   <PortfolioCardTitle>{title}</PortfolioCardTitle>
                   <PortfolioCardButton>
-                    <PortfolioLink href={github} className="btn btn-primary" target="_blank" rel="noreferrer">Project
+                    <PortfolioLink href={github} className="btn" target="_blank" rel="noreferrer">Project
                     </PortfolioLink>
                   </PortfolioCardButton>
                 </PortfolioCardImage>

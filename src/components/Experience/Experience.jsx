@@ -37,7 +37,7 @@ const Experience = () => {
                 <SkillsIcon className="icon"><HiOutlineBadgeCheck /></SkillsIcon>
                 <SkillsDiv>
                   <SkillsTitle>HTML</SkillsTitle>
-                  <SkillsText className="text-dark">Experienced</SkillsText>
+                  <SkillsText className="text-dark">Advanced</SkillsText>
                   </SkillsDiv>
               </SkillsDetails>
 
@@ -53,7 +53,7 @@ const Experience = () => {
                 <SkillsIcon className="icon"><HiOutlineBadgeCheck /></SkillsIcon>
                 <SkillsDiv>
                   <SkillsTitle>JavaScript</SkillsTitle>
-                  <SkillsText className="text-dark">Experienced</SkillsText>
+                  <SkillsText className="text-dark">Advanced</SkillsText>
                 </SkillsDiv>
               </SkillsDetails>
             </SkillsBox>
@@ -63,6 +63,14 @@ const Experience = () => {
                 <SkillsIcon className="icon"><HiOutlineBadgeCheck /></SkillsIcon>
                 <SkillsDiv>
                   <SkillsTitle>React</SkillsTitle>
+                  <SkillsText className="text-dark">Advanced</SkillsText>
+                </SkillsDiv>
+              </SkillsDetails>
+
+              <SkillsDetails>
+                <SkillsIcon className="icon"><HiOutlineBadgeCheck /></SkillsIcon>
+                <SkillsDiv>
+                  <SkillsTitle>Angular</SkillsTitle>
                   <SkillsText className="text-dark">Basic</SkillsText>
                 </SkillsDiv>
               </SkillsDetails>
@@ -70,15 +78,7 @@ const Experience = () => {
               <SkillsDetails>
                 <SkillsIcon className="icon"><HiOutlineBadgeCheck /></SkillsIcon>
                 <SkillsDiv>
-                  <SkillsTitle>Bootstrap</SkillsTitle>
-                  <SkillsText className="text-dark">Basic</SkillsText>
-                </SkillsDiv>
-              </SkillsDetails>
-
-              <SkillsDetails>
-                <SkillsIcon className="icon"><HiOutlineBadgeCheck /></SkillsIcon>
-                <SkillsDiv>
-                  <SkillsTitle>Tailwind</SkillsTitle>
+                  <SkillsTitle>Vue.js</SkillsTitle>
                   <SkillsText className="text-dark">Basic</SkillsText>
                 </SkillsDiv>
               </SkillsDetails>
@@ -97,23 +97,23 @@ const Experience = () => {
               <SkillsDetails>
                 <SkillsIcon className="icon"><HiOutlineBadgeCheck /></SkillsIcon>
                 <SkillsDiv>
-                  <SkillsTitle>Tailwind</SkillsTitle>
-                  <SkillsText className="text-dark">Basic</SkillsText>
+                  <SkillsTitle>JavaScript</SkillsTitle>
+                  <SkillsText className="text-dark">Advanced</SkillsText>
                 </SkillsDiv>
               </SkillsDetails>
 
               <SkillsDetails>
                 <SkillsIcon className="icon"><HiOutlineBadgeCheck /></SkillsIcon>
                 <SkillsDiv>
-                  <SkillsTitle>Tailwind</SkillsTitle>
-                  <SkillsText className="text-dark">Basic</SkillsText>
+                  <SkillsTitle>PHP</SkillsTitle>
+                  <SkillsText className="text-dark">Advanced</SkillsText>
                 </SkillsDiv>
               </SkillsDetails>
 
               <SkillsDetails>
                 <SkillsIcon className="icon"><HiOutlineBadgeCheck /></SkillsIcon>
                 <SkillsDiv>
-                  <SkillsTitle>Tailwind</SkillsTitle>
+                  <SkillsTitle>MongoDB</SkillsTitle>
                   <SkillsText className="text-dark">Basic</SkillsText>
                 </SkillsDiv>
               </SkillsDetails>
@@ -123,7 +123,7 @@ const Experience = () => {
               <SkillsDetails>
                   <SkillsIcon className="icon"><HiOutlineBadgeCheck /></SkillsIcon>
                   <SkillsDiv>
-                    <SkillsTitle>Tailwind</SkillsTitle>
+                    <SkillsTitle>Laravel</SkillsTitle>
                     <SkillsText className="text-dark">Basic</SkillsText>
                   </SkillsDiv>
                 </SkillsDetails>
@@ -131,7 +131,7 @@ const Experience = () => {
                 <SkillsDetails>
                   <SkillsIcon className="icon"><HiOutlineBadgeCheck /></SkillsIcon>
                   <SkillsDiv>
-                    <SkillsTitle>Tailwind</SkillsTitle>
+                    <SkillsTitle>Symfony</SkillsTitle>
                     <SkillsText className="text-dark">Basic</SkillsText>
                   </SkillsDiv>
                 </SkillsDetails>
@@ -139,7 +139,7 @@ const Experience = () => {
                 <SkillsDetails>
                   <SkillsIcon className="icon"><HiOutlineBadgeCheck /></SkillsIcon>
                   <SkillsDiv>
-                    <SkillsTitle>Tailwind</SkillsTitle>
+                    <SkillsTitle>Python</SkillsTitle>
                     <SkillsText className="text-dark">Basic</SkillsText>
                   </SkillsDiv>
             </SkillsDetails>

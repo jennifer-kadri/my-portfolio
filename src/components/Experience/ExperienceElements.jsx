@@ -48,7 +48,7 @@ export const ExperienceContainer = styled.div`
          grid-template-columns: 1fr;
          gap: 1.5rem;
       & > div {
-         width: 75%;
+         width: 68%;
          padding: 2rem;
          margin: 0 auto;
       }
@@ -56,8 +56,8 @@ export const ExperienceContainer = styled.div`
 
    /* ========== MEDIA QUERIES (Small to Medium) ========== */
    @media screen and (min-width: 600px) and (max-width: 842px ){
-      width: 90%;
-      padding: 2rem;
+      // width: 100%;
+      // padding: 2rem;
       margin: 0 auto;
    }
 
@@ -88,7 +88,6 @@ export const ExperienceContent = styled.div`
    
    /* ========== MEDIA QUERIES (Medium) ========== */
    @media screen and (max-width: 1064px) {
-      padding: 1rem;
       column-gap: 7rem;
    }
    
@@ -98,7 +97,7 @@ export const ExperienceContent = styled.div`
    
    /* ========== MEDIA QUERIES (Small) ========== */
    @media screen and (max-width: 600px) {
-      column-gap: 3rem;
+      column-gap: 2.2rem;
    }
 `
 

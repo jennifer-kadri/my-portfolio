@@ -68,8 +68,8 @@ export function AboutHelloAnimation() {
             wrapper="span"
             steps={[
                ' ',
-               1000,
-               ' Hello there ~'
+               10000,
+               ' Hello there ~',
             ]}
           />
       </Wrapper>
@@ -83,9 +83,8 @@ export function AboutDescriptionAnimation() {
             wrapper="span"
             steps={[
                ' ',
-               2000,
-               ' My name is Jennifer, I am 24 years old and love creating things. \n\n I am very passionate about web development, designing and programming. I am currently studying at Web@cadémie by Epitech in the south of France where I live.',
-               500
+               14000,
+               ' My name is Jennifer, I am 24 years old and love creating things. I am very passionate about web development, designing and programming. I am currently studying at Web@cadémie by Epitech in the south of France where I live.',
             ]}
          />
       </Wrapper>
@@ -97,19 +96,12 @@ export function ExperienceTitleAnimation() {
       <Wrapper className="title">
             <Typical
                wrapper="span"
+               loop={5}
                steps={[
                   ' ',
                   1000,
                  'My Experience',
                   1000,
-                  ' ',
-                  1000,
-                  'My Experience',
-                  1000,
-                  ' ',
-                  1000,
-                  'My Experience',
-                  1000
                ]}
             />
       </Wrapper>
@@ -121,6 +113,7 @@ export function PortfolioTitleAnimation() {
       <Wrapper className="title">
             <Typical
                wrapper="span"
+               loop={5}
                steps={[
                   ' ',
                   1000,
@@ -145,6 +138,7 @@ export function CarouselTitleAnimation() {
       <Wrapper className="title">
             <Typical
                wrapper="span"
+               loop={5}
                steps={[
                   ' ',
                   1000,

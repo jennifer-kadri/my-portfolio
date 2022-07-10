@@ -11,11 +11,12 @@ export const PortfolioContainer = styled.div`
 
    /* ========== MEDIA QUERIES (Medium) ========== */
    @media screen and (min-width: 1487px) {
-      width: 70%;
+      width: 60%;
    }
 
    /* ========== MEDIA QUERIES (Medium) ========== */
    @media screen and (max-width: 1024px) {
+      width: 80%;
       grid-template-columns: 1fr 1fr;
       gap: 1.2rem;
       text-align: center;
@@ -32,7 +33,7 @@ export const PortfolioCard = styled.article`
    background-color: #ecfae1;
    // background-color: var(--clr-bg-variant);
    padding: 0.8rem;
-   border-radius: 2rem;
+   border-radius: 1rem;
    border: 2px solid var(--clr-white);
    transition: var(--transition);
 
@@ -50,23 +51,14 @@ export const PortfolioCard = styled.article`
       margin: 0.6rem 0 0.6rem;
    }
 
-   /* ========== MEDIA QUERIES (Medium) ========== */
-   @media screen and (max-width: 1024px) {
-      padding: 1rem;
-      
-      & h3 {
-         margin-bottom: 1rem;
-      }
-   }
-
    /* ========== MEDIA QUERIES (Small) ========== */
    @media screen and (max-width: 600px) {
-      width: 80%;
+      width: 70%;
       margin: 0 auto;
    }
 `
 export const PortfolioCardImage = styled.div`
-   border-radius: 1.5rem;
+   border-radius: 1rem;
    overflow: hidden;
 `
 export const PortfolioCardImg = styled.img`
@@ -81,7 +73,7 @@ export const PortfolioCardButton = styled.div`
 `
 
 export const PortfolioLink = styled.a`
-color: var(--clr-primary);
-background-color: var(--clr-white);
-
+   background: var(--clr-light-pink);
+   border: 2px solid var(--clr-pastel-purple);
+   color: var(--clr-white);
 `

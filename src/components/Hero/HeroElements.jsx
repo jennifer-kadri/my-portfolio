@@ -44,8 +44,11 @@ export const Avatar = styled.div`
    margin-top: 4rem;
    border-radius: 12rem 12rem 0 0;
    overflow: hidden;
-   // padding: 6rem 0 1.5rem 2rem;
    padding: 5rem 1.5rem 1.5rem 1.5rem;
+   /* ========== MEDIA QUERIES (Small) ========== */
+   @media screen and (max-width: 600px) {
+      width: 75%;
+   }
 `
 
 export const AvatarImg = styled.img``
