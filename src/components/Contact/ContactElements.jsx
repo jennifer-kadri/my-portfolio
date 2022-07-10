@@ -75,7 +75,7 @@ export const ContactCard = styled.article`
    @media screen and (max-width: 600px) {
       display: flex;
       flex-direction: column;
-      width: 0%;
+      width: 30%;
       margin: 0 auto;
       
       &.linkedin {
