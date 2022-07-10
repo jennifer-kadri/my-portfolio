@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.d1013e69.css",
-    "main.js": "/my-portfolio/static/js/main.9ad5f5bf.js",
+    "main.js": "/my-portfolio/static/js/main.d0b5ce16.js",
     "static/media/sakura-about.png": "/my-portfolio/static/media/sakura-about.c8a5637725c2af9a506e.png",
     "static/media/me.png": "/my-portfolio/static/media/me.fd8b7dc12b0ccad9879c.png",
     "static/media/CV_Jennifer_KADRI.pdf": "/my-portfolio/static/media/CV_Jennifer_KADRI.21b8557db23d4c307a47.pdf",
@@ -13,10 +13,10 @@
     "static/media/portfolio-6.png": "/my-portfolio/static/media/portfolio-6.14b017e5cd5ab2b4a290.png",
     "index.html": "/my-portfolio/index.html",
     "main.d1013e69.css.map": "/my-portfolio/static/css/main.d1013e69.css.map",
-    "main.9ad5f5bf.js.map": "/my-portfolio/static/js/main.9ad5f5bf.js.map"
+    "main.d0b5ce16.js.map": "/my-portfolio/static/js/main.d0b5ce16.js.map"
   },
   "entrypoints": [
     "static/css/main.d1013e69.css",
-    "static/js/main.9ad5f5bf.js"
+    "static/js/main.d0b5ce16.js"
   ]
 }
