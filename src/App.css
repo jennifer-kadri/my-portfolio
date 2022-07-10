@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+   --hue: 337;
+    --sat: 80%;
+    --lig: 85%;
+
+    --clr-bg: hsl(342, 50%, 96%);
+   --clr-bg-variant: hsl(0, 0%, 100%);
+   --clr-primary: hsl(var(--hue), var(--sat), var(--lig));
+   --clr-primary-variant: hsl(336, 79%, 81%);
+   --clr-light-pink: hsl(336, 86%, 86%);
+   --clr-lighter-pink: hsl(339, 89%, 89%);
+   --clr-faded-pink: hsl(341, 78%, 91%);
+   --clr-dark-purple: hsl(294, 31%, 55%);
+   --clr-pastel-purple: hsl(295, 47%, 79%);
+   --clr-light-purple: hsl(294, 75%, 92%);
+   --clr-dark-green: hsl(92, 45%, 74%);
+   --clr-pastel-green: hsl(92, 64%, 89%);
+   --clr-light-green: hsl(91, 70%, 94%);
+   --clr-white: hsl(0, 0%, 100%);
+   --clr-light: hsla(0, 0%, 100%, 0.692);
+   --clr-dark: hsl(0, 0%, 17%);
+   --clr-black: hsl(0, 0%, 3%);
+   
+   --ff: 'Poppins', sans-serif;
+
+   --transition: all 400ms ease;
+   --transition-fast: all 300ms ease;
+
+   --container-width-lg: 75%;
+   --container-width-md: 86%;
+   --container-width-sm: 90%;
+
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+   font-family: var(--ff);
+}
+
+body {
+   background: var(--clr-bg);
+   color: var(--clr-black);
+   line-height: 1.7;
+   /* background-image: url(../src/assets/bg-texture.png);  */
+}
+
+/* ========== GENERAL STYLES ========== */
+.container {
+   width: var(--container-width-lg);
+   margin: 0 auto;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+   font-weight: 500;
+}
+
+h1 {
+   font-size: 2.5rem;
+}
+
+section {
+   margin-top: 8rem;
+}
+
+section > h2, 
+section > h5 {
+   text-align: center;
+   color: var(--clr-dark);
+}
+
+section > h5 {
+   text-shadow: 1px 2px 2px var(--clr-pastel-green);
+   padding-top: 1.2rem;
+}
+
+section > h2 {
+   color: var(--clr-primary-variant);
+   margin-bottom: 2rem;
+   text-shadow: 1px 2px 2px white;
+   /* text-shadow: rgb(255, 210, 227) 1px 0 10px; */
+}
+
+.text-dark {
+   color: var(--clr-dark);
+}
+
+.text-light-pink {
+   color: var(--clr-light-pink);
+}
+
+a {
+   color: var(--clr-primary);
+   transition: var(--transition);
+}
+
+a:hover {
+   color: var(--clr-black);
+}
+
+.btn {
+   width: max-content;
+   color: var(--clr-primary);
+   display: flex;
+   align-items: center;
+   text-align: center;
+   padding: 0.75rem 1.2rem;
+   border-radius: 0.4rem;
+   cursor: pointer;
+   border: 1px solid;
+   border: 2px solid var(--clr-pastel-green);
+   transition: var(--transition);
+}
+
+.btn:hover {
+   border: 2px solid var(--clr-pastel-purple);
+   background: var(--clr-white);
+   color: var(--clr-primary);
+}
+
+.btn-primary {
+   background: var(--clr-primary);
+   color: var(--clr-white);
+}
+
+img {
+   display: block;
+   width: 100%;
+   object-fit: cover;
+}
+
+/* ========== SCROLL DOWN ========== */
+.scroll__down {
+   font-size: 1.1rem;
+   position: absolute;
+   right: 1rem;
+   bottom: 20rem;
+   transform: rotate(90deg);
+   font-weight: 300;
+}
+
+.scroll__down:hover {
+   color: var(--clr-dark-green);
+}
+
+/* ========== CAROUSEL ========== */
+.carousel {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   background: var(--clr-bg-variant);
+   text-align: center;
+   padding: 2rem;
+   border-radius: 2rem;
+   user-select: none;
+}
+
+/* ========== SWIPER ========== */
+.swiper-pagination-clickable .swiper-pagination-bullet {
+   background: var(--clr-primary);
+}
+
+/* ========== ANIMATIONS ========== */
+.showFast {
+   animation: showItem 0s 1200ms forwards;
+   transition: var(--transition);
+   opacity: 0;
+}
+.showSlow {
+   animation: showItem 0s 2400ms forwards;
+   transition: var(--transition);
+   opacity: 0;
+}
+.showSlower {
+   animation: showItem 0s 3600ms forwards;
+   transition: var(--transition);
+   opacity: 0;
+}
+ 
+@keyframes showItem {
+  to   { opacity: 1; }
+}
+
+/* ========== MEDIA QUERIES (Medium) ========== */
+@media screen and (min-width: 1420px) {
+   .scroll__down {
+      right: 10rem;
+   }
+}
+
+/* ========== MEDIA QUERIES (Medium) ========== */
+@media screen and (max-width: 1024px) {
+   .container {
+      width: var(--container-width-md);
+   }
+   section {
+      margin-top: 6rem;
+   }
+}
+
+/* ========== MEDIA QUERIES (Small) ========== */
+@media screen and (max-width: 600px) {
+   .container {
+      width: var(--container-width-sm);
+   }
+   section > h2 {
+      margin-top: 0;
+   }
+   .scroll__down {
+      display: none;
+   }
+}
+
+
+

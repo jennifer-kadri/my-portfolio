@@ -1,0 +1,8 @@
+#carousel-box {
+   border: 3px solid #e1f5d0 !important;
+}
+
+/* ========== SWIPER ========== */
+.swiper-pagination-clickable .swiper-pagination-bullet {
+   background: var(--clr-primary);
+}
