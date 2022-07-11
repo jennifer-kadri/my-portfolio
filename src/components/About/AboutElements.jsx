@@ -84,6 +84,12 @@ export const AboutMeImg = styled.span`
       /* ========== MEDIA QUERIES (Small) ========== */
       @media screen and (max-width: 600px) {
          width: 480px !important;
+      }
+
+         /* ========== MEDIA QUERIES (Very Small) ========== */
+      @media screen and (max-width: 390px) {
+         width: 388px !important;
+         height: 514px !important;
          }
       }
    }
