@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.222e4369.css",
-    "main.js": "/my-portfolio/static/js/main.49dfa09c.js",
+    "main.js": "/my-portfolio/static/js/main.2ef3eed8.js",
     "static/js/232.7c4bc912.chunk.js": "/my-portfolio/static/js/232.7c4bc912.chunk.js",
     "static/media/CV_Jennifer_KADRI.pdf": "/my-portfolio/static/media/CV_Jennifer_KADRI.21b8557db23d4c307a47.pdf",
     "static/media/me.png": "/my-portfolio/static/media/me.9699256c79d9419700b5.png",
@@ -13,11 +13,11 @@
     "static/media/portfolio-6.png": "/my-portfolio/static/media/portfolio-6.14b017e5cd5ab2b4a290.png",
     "index.html": "/my-portfolio/index.html",
     "main.222e4369.css.map": "/my-portfolio/static/css/main.222e4369.css.map",
-    "main.49dfa09c.js.map": "/my-portfolio/static/js/main.49dfa09c.js.map",
+    "main.2ef3eed8.js.map": "/my-portfolio/static/js/main.2ef3eed8.js.map",
     "232.7c4bc912.chunk.js.map": "/my-portfolio/static/js/232.7c4bc912.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.222e4369.css",
-    "static/js/main.49dfa09c.js"
+    "static/js/main.2ef3eed8.js"
   ]
 }
