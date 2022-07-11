@@ -36,20 +36,20 @@ export const AboutMe = styled.div`
    place-items: center;
 
    /* ========== MEDIA QUERIES (Large) ========== */
-   @media screen and (min-width: 1487px) {
+   @media screen and (min-width: 1024px) {
       width: 85%;
    }
 
    /* ========== MEDIA QUERIES (Medium) ========== */
    @media screen and (max-width: 1024px) {
-      width: 35%;
+      width: 40%;
       margin: 1.8rem auto 4rem;
    }
 
    /* ========== MEDIA QUERIES (Small) ========== */
    @media screen and (max-width: 600px) {
-      width: 58%;
-      margin: 0 auto 3rem;
+      width: 83%;
+      margin: 0 auto 1rem;
    }
 `
 
