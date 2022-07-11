@@ -35,7 +35,7 @@ const About = () => {
         <AboutMe>
           <AboutMeImage>
             <AboutMeImg>
-              <Spline className="spline" scene="https://prod.spline.design/N8QK2aShvWrQeg-L/scene.splinecode" onLoad={onLoad} />
+              <Spline id="spline" scene="https://prod.spline.design/5Sy-NeTvGNw1clE8/scene.splinecode" onLoad={onLoad} />
              </AboutMeImg>
           </AboutMeImage>
         </AboutMe>

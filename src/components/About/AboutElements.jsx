@@ -62,7 +62,32 @@ export const AboutMeImage = styled.div`
       transition: var(--transition-fast);
    }
 `
-export const AboutMeImg = styled.span``
+export const AboutMeImg = styled.span`
+   & canvas {
+      
+      /* ========== MEDIA QUERIES (Medium) ========== */
+      @media screen and (max-width: 1200px) {
+         width: 900px !important;
+         height: 900px !important;
+      }
+      /* ========== MEDIA QUERIES (Medium) ========== */
+      @media screen and (max-width: 900px) {
+         width: 700px !important;
+      }
+
+      /* ========== MEDIA QUERIES (Medium) ========== */
+      @media screen and (max-width: 800px) {
+         width: 600px !important;
+         height: 800px !important;
+      }
+
+      /* ========== MEDIA QUERIES (Small) ========== */
+      @media screen and (max-width: 600px) {
+         width: 480px !important;
+         }
+      }
+   }
+`
 
 export const AboutContent = styled.div`
    & p {
