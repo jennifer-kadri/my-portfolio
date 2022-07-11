@@ -15,7 +15,7 @@ import {
   ProjectReview, 
 } from './CarouselElements'
 import './Carousel.css'
-import { CarouselTitleAnimation } from '../animations/TypingAnimation'
+import { CarouselTitleAnimation } from '../_animations/TypingAnimation'
 import IMG1 from '../../assets/img/portfolio-1.png'
 import IMG2 from '../../assets/img/portfolio-2.png'
 import IMG3 from '../../assets/img/portfolio-3.png'

@@ -11,7 +11,7 @@ import {
   PortfolioCardButton, 
   PortfolioLink
 } from './PortfolioElements'
-import { PortfolioTitleAnimation } from '../animations/TypingAnimation'
+import { PortfolioTitleAnimation } from '../_animations/TypingAnimation'
 import IMG1 from '../../assets/img/portfolio-1.png'
 import IMG2 from '../../assets/img/portfolio-2.png'
 import IMG3 from '../../assets/img/portfolio-3.png'

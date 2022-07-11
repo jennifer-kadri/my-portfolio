@@ -1,4 +1,5 @@
 import React from 'react'
+import Spline from '@splinetool/react-spline';
 import { 
   AboutSection, 
   AboutSubtitle, 
@@ -16,13 +17,15 @@ import {
   AboutText, 
   AboutButton
 } from './AboutElements'
-import { AboutTitleAnimation, AboutDescriptionAnimation, AboutHelloAnimation } from '../animations/TypingAnimation'
-import MyAvatar from '../../assets/img/sakura-about.png'
+import { AboutTitleAnimation, AboutDescriptionAnimation, AboutHelloAnimation } from '../_animations/TypingAnimation'
 import { RiMedal2Fill } from 'react-icons/ri'
-import { TbUsers } from 'react-icons/tb'
 import { VscFolderLibrary } from 'react-icons/vsc'
 
 const About = () => {
+  const onLoad = (splineApp) => {
+    Spline.current = splineApp;
+  }
+
   return (
     <AboutSection id="about">
       <AboutSubtitle>Get To Know</AboutSubtitle>
@@ -31,7 +34,9 @@ const About = () => {
       <AboutContainer className="container">
         <AboutMe>
           <AboutMeImage>
-            <AboutMeImg src={MyAvatar} alt="Avatar of me" />
+            <AboutMeImg>
+              <Spline className="spline" scene="https://prod.spline.design/N8QK2aShvWrQeg-L/scene.splinecode" onLoad={onLoad} />
+             </AboutMeImg>
           </AboutMeImage>
         </AboutMe>
 

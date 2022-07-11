@@ -15,7 +15,7 @@ import {
   SkillsTitle, 
   SkillsText
 } from './ExperienceElements'
-import { ExperienceTitleAnimation } from '../animations/TypingAnimation'
+import { ExperienceTitleAnimation } from '../_animations/TypingAnimation'
 import { HiOutlineBadgeCheck  } from 'react-icons/hi'
 
 const Experience = () => {

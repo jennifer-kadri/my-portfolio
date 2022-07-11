@@ -32,7 +32,6 @@ export const AboutMe = styled.div`
    width: 100%;
    aspect-ratio: 1/1;
    border-radius: 2rem;
-   background: linear-gradient(45deg, var(--clr-faded-pink), var(--clr-pastel-green), var(--clr-faded-pink));
    display: grid;
    place-items: center;
 
@@ -57,15 +56,13 @@ export const AboutMe = styled.div`
 export const AboutMeImage = styled.div`
    border-radius: 2rem;
    overflow: hidden;
-   transform: rotate(10deg);
    transition: var(--transition-fast);
 
    &:hover {
-      transform: rotate(0deg);
       transition: var(--transition-fast);
    }
 `
-export const AboutMeImg = styled.img``
+export const AboutMeImg = styled.span``
 
 export const AboutContent = styled.div`
    & p {

@@ -17,7 +17,7 @@ import {
   FormTextArea,
   FormButton
 } from './ContactElements'
-import { EmailAnimation } from '../animations/TypingAnimation';
+import { EmailAnimation } from '../_animations/TypingAnimation';
 import { HiOutlineMail } from 'react-icons/hi'
 import { TbBrandMessenger, TbBrandWhatsapp } from 'react-icons/tb'
 import emailjs from 'emailjs-com';

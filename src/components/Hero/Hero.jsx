@@ -9,8 +9,8 @@ import {
   AvatarImg, 
   HeroContact 
 } from './HeroElements'
-import HelloAnimation, { MyNameAnimation } from '../animations/TypingAnimation'
-import ReactTypingEffectDemo from '../animations/ProfessionAnimation'
+import HelloAnimation, { MyNameAnimation } from '../_animations/TypingAnimation'
+import ReactTypingEffectDemo from '../_animations/ProfessionAnimation'
 import CallToAction from './CallToAction'
 import HeroSocials from './HeroSocials'
 import MyAvatar from '../../assets/img/me.png'
